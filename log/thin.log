@@ -1,0 +1,17 @@
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:4567, CTRL+C to stop
+127.0.0.1 - - [18/May/2013 13:07:13] "GET / HTTP/1.1" 404 436 0.0015
+127.0.0.1 - - [18/May/2013 13:07:15] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:07:18] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:07:19] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:07:19] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:07:27] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:07:40] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:08:01] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:08:02] "GET /get HTTP/1.1" 404 439 0.0006
+127.0.0.1 - - [18/May/2013 13:08:03] "GET /get HTTP/1.1" 404 439 0.0007
+127.0.0.1 - - [18/May/2013 13:08:03] "GET /get HTTP/1.1" 404 439 0.0007
+>> Exiting!
