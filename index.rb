@@ -6,7 +6,7 @@ class App < Sinatra::Base
     File.read(DATA_PATH)
   end
 
-  post '/set' do
-    File.write(DATA_PATH, params[:address])
+  get '/set' do
+    File.write(DATA_PATH, request.ip)
   end
 end

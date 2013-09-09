@@ -1,0 +1,6 @@
+
+
+while true; do
+sleep 1
+  curl "http://42.96.173.64:3000/set"
+done;
